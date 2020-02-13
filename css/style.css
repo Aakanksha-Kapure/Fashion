@@ -1,0 +1,170 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif,serif;
+}
+.content-title-underline{
+    width: 30px;
+    height: 3px;
+    background: #007dfd;
+    margin: 0 auto 30px;
+}
+.bg-parallax{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+}
+.text-color{
+    color: black;
+}
+.text-heading{
+    text-align: center;
+    margin: 50px 0;
+    font-family: serif;
+    text-transform: uppercase;
+}
+.Fashion-logo{
+    color: burlywood;
+    font-size: 40px;
+}
+.carousel-caption{
+    color: crimson;
+}
+.carousel{
+    width: 100%;
+    height: 100vh;
+}
+.carousel-item>img{
+    width: 100%;
+    height: 100vh;
+}
+.about-content{
+    margin-top: 80px;
+}
+.about-us-content{
+    margin-top: 100px;
+}
+.about-content-box{
+    float: left;
+    height: 400px;
+} 
+about-us-image{
+    margin-left: 100px;
+}
+.card-border{
+    border: 3px solid crimson;
+}
+.btn-blue{
+    background-color: crimson;
+    color: cornsilk;
+}
+.services-icon{
+    color: coral;
+    font-size: 80px;
+    text-align: center;
+}
+
+.image-responsive{
+    width: 100%;
+}
+.social-icons{
+    list-style-type: none;
+    color: black;
+}
+.icon-facebook:hover{
+    color: #3c589e;
+}
+.icon-twitter:hover{
+    color: #5da9dd;
+}
+.icon-instagram:hover{
+    color: #d0006d;
+}
+.icon-whatsapp:hover{
+    color: darkgreen;
+}
+.footer-content{
+    margin-top: 25px;
+}
+.right-text{
+    text-align: left;
+}
+.left-text{
+    text-align: right;
+}
+.social-icons{
+    display: inline-block;
+    text-decoration: none;
+}
+.our-team-cover{
+    background-image: url('../img/bg.jpg');
+}
+.our-team h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.team-member p{
+    text-align: center;
+    color: white;
+}
+.team-member h4{
+    text-align: center;
+    color: white;
+}
+.team-member img{
+    margin: 50px 0 40px 130px;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.contact-content{
+    margin-bottom: 70px;
+}
+.form-control{
+    background-color: #fff;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 300;
+    border-color: #E84558;
+    margin-bottom: 20px;
+    padding: 6px 10px;
+}
+.form-control:active,
+.form-control:focus{
+    border-color: #E84558;
+}
+.contact-detail{
+    margin: 0 140px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.address-heading i{
+    color: #E84558;
+    font-size: 18px;
+}
+.gallery-wrapper{
+    overflow: hidden;
+}
+.gallery-wrapper img{
+    transition: transform .5s ease;
+}
+.gallery-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
